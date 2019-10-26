@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.javainuse.model.Employee;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin
 @RestController
 public class TestController {
 	
