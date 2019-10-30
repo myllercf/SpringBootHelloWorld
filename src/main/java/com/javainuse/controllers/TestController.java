@@ -30,7 +30,7 @@ public class TestController {
 	@GetMapping(produces = "application/json")
 	@RequestMapping({ "/employees/validateLogin" })
 	public User validateLogin() {
-		return new User("User successfully authenticated");
+		return new User("User successfully authenticated.");
 	}
 	
 	@DeleteMapping(path = { "/employees/{id}" })
